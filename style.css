@@ -1,0 +1,137 @@
+body, h1, h2, h3, p, ul, li, figure, figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+
+header {
+  background-color: lightgreen;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+
+#aboutmyself {
+  padding: 20px;
+  background-color: lightgreen;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+#aboutmyself figure {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#aboutmyself figcaption {
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+
+#aboutmyself p {
+  line-height: 1.5;
+}
+
+
+#mylifestory {
+  padding: 20px;
+  background-color: lightgreen;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+#mylifestory h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#mylifestory figure {
+  margin-bottom: 20px;
+}
+
+#mylifestory figcaption {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#mylifestory p {
+  line-height: 1.5;
+}
+
+
+#hobbies {
+  padding: 20px;
+  background-color: lightgreen;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+#hobbies h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#hobbies figure {
+  margin-bottom: 20px;
+}
+
+#hobbies figcaption {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#hobbies p {
+  line-height: 1.5;
+}
+
+
+#favorites {
+  padding: 20px;
+  background-color: lightgreen;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+#favorites h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px
+}
